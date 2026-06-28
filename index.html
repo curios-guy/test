@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPtional independent project</title>
+</head>
+
+<body>
+    <h1>Student tracking system</h1>
+
+    <input placeholder="name" type="text" id="student_name">
+    <select name="grade" id="student_grade">
+        <option value="" disabled selected>Select grade</option>
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+        <option value="7">Grade 7</option>
+        <option value="8">Grade 8</option>
+        <option value="9">Grade 9</option>
+        <option value="10">Grade 10</option>
+        <option value="11">Grade 11</option>
+    </select>
+    <input placeholder="gpa" type="number" id="student_gpa">
+    <input placeholder="graduation" type="number" id="student_graduation">
+    <button type="submit" id="submit_btn">Submit</button>
+    <button id="show_btn">Show students</button>
+
+    <table id="student_table" border="solid">
+        <tr>
+            <th>№</th>
+            <th>Student ID</th>
+            <th>Student name</th>
+            <th>GPA</th>
+            <th>Graduation</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
